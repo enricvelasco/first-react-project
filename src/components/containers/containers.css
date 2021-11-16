@@ -1,0 +1,34 @@
+.master-container {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 200px 250px 200px 200px;
+    grid-template-areas: 
+    "first first third"
+    "first first third"
+    "second second third "
+    "second second third ";
+}
+
+.first-container {
+    box-sizing: border-box;
+    margin: 10px;
+    background-color: red;
+    grid-area: first;
+}
+
+.second-container {
+    box-sizing: border-box;
+    margin: 10px;
+    background-color: blue;
+    grid-area: second;
+}
+
+.third-container {
+    box-sizing: border-box;
+    margin: 10px;
+    background-color: green;
+    grid-area: third;
+}
