@@ -1,7 +1,8 @@
+import SearchInput from "../../ui/searchInput"
 
 function Table (){
     return (
-        <p>AQUI VA LA TABLA</p>
+        <SearchInput/>
     )
 } 
 
