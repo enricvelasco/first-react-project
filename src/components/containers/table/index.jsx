@@ -2,7 +2,11 @@ import SearchInput from "../../ui/searchInput"
 
 function Table (){
     return (
-        <SearchInput/>
+        <>
+            <div>Search people</div>
+            <SearchInput/>
+        </>
+        
     )
 } 
 
