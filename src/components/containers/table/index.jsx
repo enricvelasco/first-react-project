@@ -1,8 +1,17 @@
+import SearchInput from "../../ui/searchInput"
 
 function Table (){
+    const onBusqueda = (value) =>{
+        console.log('pepito', value)
+    }
+
     return (
-        <p>AQUI VA LA TABLA</p>
+        <>
+            <div>Search people</div>
+            <SearchInput onSearch={(param)=>onBusqueda(param)}/>
+        </>
+        
     )
-} 
+}
 
 export default Table

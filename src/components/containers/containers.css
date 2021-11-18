@@ -13,9 +13,10 @@
 }
 
 .first-container {
+    padding: 1rem;
     box-sizing: border-box;
     margin: 10px;
-    background-color: red;
+    background-color: #ffffff;
     grid-area: first;
 }
 
