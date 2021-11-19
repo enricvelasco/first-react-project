@@ -18,6 +18,8 @@
     margin: 10px;
     background-color: #ffffff;
     grid-area: first;
+    display: flex;
+    flex-direction: column;
 }
 
 .second-container {
