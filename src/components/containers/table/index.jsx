@@ -20,23 +20,58 @@ function Table (){
 
     return (
         <>
-            <div>Search people</div>
+            <div className={'title-first-container'}>Search people</div>
             <Buscador onSearch={(param)=>onBusqueda(param)}/>
-            <ul className={'list'}>
-                <div className={'list-header'}>
+            <div className={'list-header'}>
                     <p>Name</p>
                     <p>Gender</p>
                     <p>Birth Year</p>
                     <p>Eye Color</p>
-                    <p></p>
-                </div>
-                {list.map((item, key)=>{
-                    console.log(item);
-                    return(
-                        <li className={'item'} key={key}>{item.name}</li>
-                    )
-                })}
-            </ul>
+                    <p>buttons</p>
+            </div>
+            <div className={'list-container'}>
+                <ul className={'list'}>
+                    {list.map((item, key)=>{
+                        console.log(item);
+                        return(
+                            <li className={'item'} key={key}>{item.name}</li>
+                        )
+                    })}
+                </ul>
+                <ul className={'list'}>
+                    {list.map((item, key)=>{
+                        console.log(item);
+                        return(
+                            <li className={'item'} key={key}>{item.gender}</li>
+                        )
+                    })}
+                </ul>
+                <ul className={'list'}>
+                    {list.map((item, key)=>{
+                        console.log(item);
+                        return(
+                            <li className={'item'} key={key}>{item.birth_year}</li>
+                        )
+                    })}
+                </ul>
+                <ul className={'list'}>
+                    {list.map((item, key)=>{
+                        console.log(item);
+                        return(
+                            <li className={'item'} key={key}>{item.eye_color}</li>
+                        )
+                    })}
+                </ul>
+                <ul className={'list'}>
+                    {list.map((item, key)=>{
+                        console.log(item);
+                        return(
+                            <li className={'item'} key={key}>{item.eye_color}</li>
+                        )
+                    })}
+                </ul>
+                
+            </div>
         </>
         
     )

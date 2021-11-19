@@ -1,18 +1,30 @@
+.title-first-container{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
 .list-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     font-weight: bold;
-    width: 80%;
+    width: 100%;
 }
 
 .list-header p{
-    margin-right: 30px;
+    width: auto;
     padding: 10px;
 }
 
 .list{
     height: 100%;
+    width: 25%;
     background-color: white;
     list-style: none;
     border-top: 1px solid grey;
@@ -26,5 +38,5 @@
 }
 
 .item{
-    padding: 5px;
+    padding: 10px;
 }

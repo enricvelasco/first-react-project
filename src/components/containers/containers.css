@@ -4,7 +4,7 @@
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 200px 250px 200px 200px;
+    grid-template-rows: 200px 350px 200px 200px;
     grid-template-areas: 
     "first first third"
     "first first third"
