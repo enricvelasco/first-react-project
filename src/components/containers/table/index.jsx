@@ -27,7 +27,6 @@ function Table (){
                     <p>Gender</p>
                     <p>Birth Year</p>
                     <p>Eye Color</p>
-                    <p>buttons</p>
             </div>
             <div className={'list-container'}>
                 <ul className={'list'}>
@@ -66,7 +65,7 @@ function Table (){
                     {list.map((item, key)=>{
                         console.log(item);
                         return(
-                            <li className={'item'} key={key}>{item.eye_color}</li>
+                            <li className={'item'} key={key}>button</li>
                         )
                     })}
                 </ul>

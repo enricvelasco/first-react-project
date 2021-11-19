@@ -14,11 +14,11 @@
     justify-content: space-around;
     align-items: center;
     font-weight: bold;
-    width: 100%;
+    width: 80%;
 }
 
 .list-header p{
-    width: auto;
+    width: 25%;
     padding: 10px;
 }
 
